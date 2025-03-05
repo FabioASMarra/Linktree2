@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,blue, rgb(19, 190, 241))
+}
+
+.card {
+    width: 300px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin: 50px auto; /* Auto nas laterais centraliza horizontalmente */
+}
+
+.card img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do card */
+    height: 100%; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Arredonda as bordas da imagem */
+    object-fit: cover; /* Garante que a imagem cubra bem o espaço */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra */
+}
+
+h3{
+    color: gray;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}

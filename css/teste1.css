@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(201, 201, 201);
+}
+
+header{
+    text-align: center;
+}
+
+img{
+    margin-right: 2%;
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+.insta{
+    width: 70px;
+    height: 20px;
+    border: 3px solid black;
+    text-decoration: none;
+    display:inline-block;
+    margin-left: 10%;
+    background: rgb(0, 30, 75);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.face{
+    text-align: center;
+    width: 70px;
+    height: 20px;
+    border: 3px solid black;
+    text-decoration: none;
+    display:inline-block;
+    margin-left: 10%;
+    background: rgb(0, 30, 75);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.insta:hover, .face:hover {
+    border: 3px solid black;
+    background: rgb(0, 46, 0);
+    transform: scale(1.1); /* Aumenta levemente ao passar o mouse */
+}
